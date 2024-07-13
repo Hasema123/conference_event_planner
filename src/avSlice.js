@@ -27,7 +27,6 @@ export const avSlice = createSlice({
       cost: 80,
       quantity: 0,
     },
-
     {
       img: "/conference_event_planner/src/assets/signpost-235079_1920.jpg",
       name: "Signage",
