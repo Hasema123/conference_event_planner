@@ -6,16 +6,16 @@ import { incrementQuantity, decrementQuantity } from "./venueSlice";
 import { incrementAvQuantity, decrementAvQuantity } from "./avSlice";
 import { toggleMealSelection } from "./mealsSlice";
 
-import projector from "./assets/projector-20031_1920.jpg";
-import speakers from "./assets/speakers-4109274_1920.jpg";
-import microphone from "./assets/microphone-3926344_1920.jpg";
-import whiteboard from "./assets/whiteboard-2903269_1920.png";
-import signpost from "./assets/signpost-235079_1920.jpg";
+import "./assets/projector-20031_1920.jpg";
+import "./assets/speakers-4109274_1920.jpg";
+import "./assets/microphone-3926344_1920.jpg";
+import "./assets/whiteboard-2903269_1920.png";
+import "./assets/signpost-235079_1920.jpg";
 
-import chairs from "./assets/chairs-2181916_1920.jpg";
-import event from "./assets/event-venue-1597531_1920.jpg";
-import convention from "./assets/convention-center-3908238_1920.jpg";
-import laptops from "./assets/laptops-593296_1920.jpg";
+import "./assets/chairs-2181916_1920.jpg";
+import "./assets/event-venue-1597531_1920.jpg";
+import "./assets/convention-center-3908238_1920.jpg";
+import "./assets/laptops-593296_1920.jpg";
 
 const ConferenceEvent = () => {
   const [showItems, setShowItems] = useState(false);
@@ -196,7 +196,7 @@ const ConferenceEvent = () => {
                   {venueItems.map((item, index) => (
                     <div className="venue_main" key={index}>
                       <div className="img">
-                        <img src={chairs} alt={item.name} />
+                        <img src={item.img} alt={item.name} />
                       </div>
                       <div className="text">{item.name}</div>
                       <div>${item.cost}</div>
@@ -261,7 +261,7 @@ const ConferenceEvent = () => {
                   {avItems.map((item, index) => (
                     <div className="av_data venue_main" key={index}>
                       <div className="img">
-                        <img src={chairs} alt={item.name} />
+                        <img src={item.img} alt={item.name} />
                       </div>
                       <div className="text"> {item.name} </div>
                       <div> ${item.cost} </div>

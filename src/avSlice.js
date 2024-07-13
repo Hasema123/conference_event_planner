@@ -4,67 +4,36 @@ export const avSlice = createSlice({
   name: "av",
   initialState: [
     {
-      img: "projector",
+      img: "/conference_event_planner/src/assets/projector-20031_1920.jpg",
       name: "Projectors",
       cost: 200,
       quantity: 0,
     },
     {
-      img: "speakers",
+      img: "/conference_event_planner/src/assets/speakers-4109274_1920.jpg",
       name: "Speaker",
       cost: 35,
       quantity: 0,
     },
     {
-      img: "microphone",
+      img: "/conference_event_planner/src/assets/microphone-3926344_1920.jpg",
       name: "Microphones",
       cost: 45,
       quantity: 0,
     },
     {
-      img: "whiteboard",
+      img: "/conference_event_planner/src/assets/whiteboard-2903269_1920.png",
       name: "Whiteboards",
       cost: 80,
       quantity: 0,
     },
 
     {
-      img: "signpost",
+      img: "/conference_event_planner/src/assets/signpost-235079_1920.jpg",
       name: "Signage",
       cost: 80,
       quantity: 0,
     },
-    // {
-    //   img: "./src/assets/projector-20031_1920.jpg",
-    //   name: "Projectors",
-    //   cost: 200,
-    //   quantity: 0,
-    // },
-    // {
-    //   img: "./src/assets/speakers-4109274_1920.jpg",
-    //   name: "Speaker",
-    //   cost: 35,
-    //   quantity: 0,
-    // },
-    // {
-    //   img: "./src/assets/microphone-3926344_1920.jpg",
-    //   name: "Microphones",
-    //   cost: 45,
-    //   quantity: 0,
-    // },
-    // {
-    //   img: "./src/assets/whiteboard-2903269_1920.png",
-    //   name: "Whiteboards",
-    //   cost: 80,
-    //   quantity: 0,
-    // },
-
-    // {
-    //   img: "./src/assets/signpost-235079_1920.jpg",
-    //   name: "Signage",
-    //   cost: 80,
-    //   quantity: 0,
-    // },
   ],
 
 
