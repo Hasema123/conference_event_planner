@@ -6,17 +6,6 @@ import { incrementQuantity, decrementQuantity } from "./venueSlice";
 import { incrementAvQuantity, decrementAvQuantity } from "./avSlice";
 import { toggleMealSelection } from "./mealsSlice";
 
-import "./assets/projector-20031_1920.jpg";
-import "./assets/speakers-4109274_1920.jpg";
-import "./assets/microphone-3926344_1920.jpg";
-import "./assets/whiteboard-2903269_1920.png";
-import "./assets/signpost-235079_1920.jpg";
-
-import "./assets/chairs-2181916_1920.jpg";
-import "./assets/event-venue-1597531_1920.jpg";
-import "./assets/convention-center-3908238_1920.jpg";
-import "./assets/laptops-593296_1920.jpg";
-
 const ConferenceEvent = () => {
   const [showItems, setShowItems] = useState(false);
   const [numberOfPeople, setNumberOfPeople] = useState(1);
